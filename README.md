@@ -1,5 +1,4 @@
-Placeholder
-==========================
+# Placeholder
 
 It won't actually generate any image content such as JPG or PNG; only text SVG will be return to the client.
 
@@ -10,27 +9,30 @@ It won't actually generate any image content such as JPG or PNG; only text SVG w
 
 **Example:**
 
-```<img src="https://[YOUR_DOMAIN]/512x128" />```
+`<img src="https://[YOUR_DOMAIN]/512x128" />`
 
 ![](https://misaka.imfast.io/512x128.svg)
 
-```<img src="https://[YOUR_DOMAIN]/32x32" />```
+`<img src="https://[YOUR_DOMAIN]/32x32" />`
 
 ![](https://misaka.imfast.io/32x32.svg)
 
-```<img src="https://[YOUR_DOMAIN]/64x128" />```
+`<img src="https://[YOUR_DOMAIN]/64x128" />`
 
 ![](https://misaka.imfast.io/64x128.svg)
 
-```<img src="https://[YOUR_DOMAIN]/512x128+cross" />```
+`<img src="https://[YOUR_DOMAIN]/512x128+cross" />`
 
 ![](https://misaka.imfast.io/512x128+cross.svg)
 
-```<img src="https://[YOUR_DOMAIN]/512x128+border" />```
+`<img src="https://[YOUR_DOMAIN]/512x128+border" />`
 
 ![](https://misaka.imfast.io/512x128+border.svg)
 
-```<img src="https://[YOUR_DOMAIN]/512x128+cross+border" />```
+`<img src="https://[YOUR_DOMAIN]/512x128+cross+border" />`
 
 ![](https://misaka.imfast.io/512x128+cross+border.svg)
 
+`<img src="https://[YOUR_DOMAIN]/512x128+ads+cross+border" />`
+
+`<img src="https://[YOUR_DOMAIN]/512x128+size+cross+border" />`

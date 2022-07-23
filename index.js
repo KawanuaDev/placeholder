@@ -8,9 +8,21 @@ var express = require("express");
 var app = express();
 
 app.use(logger());
+app.use(function errorHandler(err, req, res, next) {
+  if (err.code === "ENOENT") {
+    res.status(404);
+    res.end("Not found");
+  } else if (err.statusCode) {
+    res.status(err.statusCode);
+    res.end(err.message);
+  } else {
+    res.status(500);
+    res.end(err.message);
+  }
+});
 
-app.get("/", function (req, res) {
-  res.send("© KawanuaDev");
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/count", function (req, res) {
